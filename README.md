@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# Rails api
 
-In the project directory, you can run:
+Use rails  to build greeting api. The app generate random greeting to user
 
-### `npm start`
+## Front end repo 
+[https://github.com/mwenyoa/helo-react-back-end](https://github.com/mwenyoa/helo-react-back-end/pull/1)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] Programming Language: Ruby
+- [x] Framework : Ruby on Rails
+- [x] Linter: [Rubocop](https://rubocop.org/)
+- [x] VS Code
 
-### `npm test`
+## [Go live](#)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+You can get a local copy up and running following these simple steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] A web browser like Google Chrome.
+- [x] A code editor like Visual Studio Code with Git and Ruby.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Install and Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+In the terminal, go to your file directory and run this command.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Clone the repository
+```
+$ git clone https://github.com/mwenyoa/helo-rails-back-end.git
+```
+```
+$ cd helo-rails-back-end-
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Gemfile Install gem
+ 
+```
+$ bundle install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> #### Run the app 
 
-## Learn More
+#### Rails Backend Server
+```
+   $ rails s -p 3001
+```
+#### React Frontend Server
+```
+ - npm start
+ 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Rubocop
+> To check linter
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+$ rubocop --color
+```
 
-### Code Splitting
+## Rspec
+> To run testing 
+```
+$ rspec 
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+👤 **Anthony Mwenyo**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [@mwenyoa](https://github.com/mwenyoa)
+- Twitter: [@anthony_mwenyo](https://twitter.com/phayte_p)
+- LinkedIn: [Anthony Mwenyo](https://linkedin.com/in/anthony-mwenyo)
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues, and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
+- [Microverse](https://www.microverse.org/)
+- Coding Partners
+- Code Reviewers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
