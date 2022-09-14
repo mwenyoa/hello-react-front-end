@@ -8,12 +8,12 @@ export const greetReducer = (state = { greeting: 'Hello' }, action) => {
     default:
       return state;
   }
-}
+};
 
 export const getGreeting = () => async (dispatch) => {
-    const response = await fetch('http://localhost:3001/api/v1/greetings');
-    const greeting = await response.json();
-    dispatch({ type: 'GREET', payload: greeting });
-}
+  const response = await fetch('http://localhost:3001/api/v1/greetings');
+  const greeting = await response.json();
+  dispatch({ type: 'GREET', payload: greeting });
+};
 
 export const store = createStore(greetReducer, applyMiddleware(thunk));
