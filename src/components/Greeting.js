@@ -9,7 +9,7 @@ const Greeting = () => {
 
     useEffect(() => {
         dispatch(getGreeting())
-      }, [])
+      }, [dispatch])
 
 
     return (
