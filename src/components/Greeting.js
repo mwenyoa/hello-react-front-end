@@ -1,7 +1,7 @@
 
-import React, { useEffect } from "react"
-import { getGreeting } from "../redux/Store"
-import { useDispatch, useSelector } from "react-redux"
+import React, { useEffect } from 'react'
+import { getGreeting } from '../redux/Store'
+import { useDispatch, useSelector } from 'react-redux'
 
 const Greeting = () => {
     const dispatch = useDispatch()
