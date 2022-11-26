@@ -1,62 +1,87 @@
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Rails api
 
-> Description the project.
+Use rails  to build greeting api. The app generate random greeting to user
 
+## Front end repo 
+[https://github.com/mwenyoa/helo-react-back-end](https://github.com/mwenyoa/helo-react-back-end/pull/1)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- [x] Programming Language: Ruby
+- [x] Framework : Ruby on Rails
+- [x] Linter: [Rubocop](https://rubocop.org/)
+- [x] VS Code
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+## [Go live](#)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+You can get a local copy up and running following these simple steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- [x] A web browser like Google Chrome.
+- [x] A code editor like Visual Studio Code with Git and Ruby.
 
 
+### Install and Usage
 
-## Authors
+In the terminal, go to your file directory and run this command.
 
-👤 **Author1**
+> Clone the repository
+```
+$ git clone https://github.com/mwenyoa/helo-rails-back-end.git
+```
+```
+$ cd helo-rails-back-end-
+```
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+### Gemfile Install gem
+ 
+```
+$ bundle install
+```
 
-👤 **Author2**
+> #### Run the app 
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+#### Rails Backend Server
+```
+   $ rails s -p 3001
+```
+#### React Frontend Server
+```
+ - npm start
+ 
+```
+
+## Rubocop
+> To check linter
+
+```
+$ rubocop --color
+```
+
+## Rspec
+> To run testing 
+```
+$ rspec 
+```
+
+
+👤 **Anthony Mwenyo**
+
+- GitHub: [@mwenyoa](https://github.com/mwenyoa)
+- Twitter: [@anthony_mwenyo](https://twitter.com/phayte_p)
+- LinkedIn: [Anthony Mwenyo](https://linkedin.com/in/anthony-mwenyo)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page]
 
 ## Show your support
 
@@ -64,12 +89,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/)
+- Coding Partners
+- Code Reviewers
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
